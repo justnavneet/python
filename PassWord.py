@@ -3,9 +3,9 @@ fl = False ; fa = False ; fs = False ; fn = False
 l = len(data)
 if(l >= 5 and not(data.isspace())):
     fl = True
-if(data.upper() != data and data.lower() != data):
+if(data.upper() != data and data.lower() != data): #check presence of upper case and lower case
     fa = True
-for var in range(l):
+for var in range(l):#  check presence of spicale char
     fs = not(data[var].isalpha()) and not(data[var].isnumeric())
     if(fs == True):
         break

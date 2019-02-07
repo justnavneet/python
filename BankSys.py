@@ -1,6 +1,7 @@
 data = {100:['navneet',1234,1000,"sav"],101:['suraj',15734,1460,"cur"]}
 #         V      V       V    V    V 
-print("neme ",data[100][0],"\nbal ",data[100][2],"\ntyp ",data[100][3])
+#        a/c   name     pass  bal  typ
+print("neme ",data[100][0],"\nbal ",data[100][2],"\ntyp ",data[100][3])# printing some data
 data[103]=['shubham',4321,500,'sav'] # adding a new a/c
 print(data)
 while(1):
